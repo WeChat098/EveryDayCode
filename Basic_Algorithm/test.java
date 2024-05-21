@@ -1,9 +1,6 @@
 public class test {
     public static void main(String[] args) {
-        int a = 1000000000;
-        int b = 1000000000;
-        int c = 1000000000;
-        long d =(long)a + (long)b + (long)c;
-        System.out.println(d);
+        StringBuilder stringBuilder = new StringBuilder("abc");
+        System.out.println(stringBuilder.replace(1,3,stringBuilder.substring(0,1)));
     }
 }
