@@ -3,7 +3,7 @@ import java.util.*;
 
 public class test {
     public static void main(String[] args) {
-
-        // 测试
+        int x = Integer.MAX_VALUE / 2;
+        System.out.println(x);
     }
 }
